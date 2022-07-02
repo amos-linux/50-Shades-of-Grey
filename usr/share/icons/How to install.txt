@@ -1,0 +1,136 @@
+How to install GTK themes on Linux (translate.google.com).
+
+All themes work correctly in Linux Mint, Ubuntu 12.04 - 14.04 surrounded MATE, Gnome Classic, Gnome Flashback (Fallback), Cinnamon, Gnome Shell, Cairo dock.
+
+
+1. If you want to install these themes, unpack them in /home/ *****/.themes where instead of /*****/ will be your login. If your home directory a folder does not exist, create it, and that's the point.
+
+Do not forget that in your file manager, you need to click click "View" and select "Show hidden files".
+
+Or install these themes in /usr/share/themes open the file manager as admin (sudo or as root). It is absolutely necessary to select themes windows in Gnome Shell and Classic Gnome. After placing the themes, select them all together, click on them, right-click - "Properties" - "Rights" in "Others" - "Access" select - "Read Only", "Access to the file" the same or a click on "Right to distribute the attached files. "
+
+It is best to put these Themes into /usr/share/themes in this case everything is working with root privileges will be in the style of these Themes.
+
+If you put these Themes in the .themes example Synaptic is covered in gray or brown style from the Gnome.
+
+How to open the file manager as admin (sudo or as root)?
+
+Click on any folder , then click Help - About . It says the name of your file manager (Caja, Nautilus, Nemo, or others).
+
+Open a terminal and write in it (in small letters), eg :
+
+sudo caja
+
+or
+
+sudo nautilus
+
+
+press Enter
+
+Then in the same terminal, write your password to login (it will be invisible) and then click Enter.
+
+
+2. Set the background in Caja (Nautilus). (In the background Nemo already).
+
+You will need to add new ornaments from my Wallpapers & patterns in the - /usr/share/caja/patterns (/usr/share/nautilus/patterns).
+Open the file manager as admin (sudo or as root).
+Then you need to select all of these added files and click on them, right-click - "Properties" - "Rights" in "Others" - "Access" select - "read only".
+
+Next : Caja (Nautilus) - Edit - Background and logo - drag any window ornament in your folder (to return to the original background to drag the white arrow).
+
+All ornaments have serial numbers corresponding to the number of the theme. It is recommended to use them as a backdrop to the relevant subject.
+
+
+3. Set Wallpaper : right-click on the desktop - Change desktop background - Appearance - Background
+
+In the background click on Add and select the wallpaper once all Fifty Shades of Grey from the folder /usr/share/caja/patterns (/usr/share/nautilus/patterns). They also can simply drag the window background.
+
+(Desktop from this location are both as wallpaper and ornaments for the file manager).
+
+All wallpapers are the serial numbers corresponding to the number of the theme. It is recommended to use them as a backdrop to the relevant subject.
+
+Do not forget that you will need to click back in style and select Mosaic, to pave the selected background screen (Options - Mosaic).
+
+
+4. Choice and change to those :
+
+In MATE - right-click on the desktop - Change desktop background - Appearance - Theme - Fifty Shades of Grey (01-55)
+
+If you want to font as in the picture, click Font - Font window title - Ubuntu Light or Ubuntu Medium size 10.
+
+In GNOME 3, Cinnamon - right-click on the desktop - Change desktop background - All settings - Theme - Other Settings
+
+Here you need to select synchronously in two places actually subject (Controls), and a frame window (in the Window borders). 
+Click on it and choose from the list.
+
+Controls - Fifty Shades of Grey (01-55)
+
+Window borders - Fifty Shades of Grey (01-55)
+
+
+
+In Ubuntu Tweak (or gnome-tweak-tool) - Customize - Theme - and in two places:
+
+Theme GTK - Fifty Shades of Grey
+
+The theme of the window frame - Fifty Shades of Grey
+
+
+
+Or gnome-tweak-tool (Administrative Tools - Advanced Settings) - too most.
+
+Number Themes GTK Fifty Shades of Grey should correspond to the window frame (Window theme) Fifty Shades of Grey, from 01 to 55.
+
+To select themes in Gnome Shell need to install User Themes with https://extensions.gnome.org/extension/19/user-themes/ click on the button, should be - ON.
+
+Themes for Gnome Shell labeled as GS (Fifty Shades of Grey GS 1-4). They are chosen separately in a row - Themes Shell.
+
+
+5. Icons. To install the Theme icons "50 Shades of Grey icon" you need to put them in a folder .icons in your home directory (home folder). If your home directory a folder does not exist, create it.
+Or place the folder icons in the /usr/share/icons
+Then, in the settings so click on the "Icons" or "Theme icons" and choice.
+
+This themes is not a lot of extra icons - folder-library, folder-mail, folder-system... But in other, larger themes may include "extra" icons for folders. They can be assigned to any folder of your favorite.
+
+To do this, click on the folder, right-click, click on - properties, then click on the folder icon in the upper right corner of this window, and select the image in the /usr/share/icons or ./icons
+
+To select images in the folder ./icons need to click on the right-most button in the "Select a different icon" and then you see "Location" it is necessary to insert the path to ./icons
+
+That's how: /home/****/.icons
+
+Where instead of **** name of your home directory (your username). You can then select a new image for the folder from any themes and assign it to your chosen folder. This new icon will always be associated with the name of your chosen folder.
+
+
+6. Cinnamon. Also here there are several options for Cinnamon - 50 Shades of Grey for cinnamon (dark) and 50 Shades of Grey for cinnamon (light).
+
+Installation: right-click on the desktop - Change desktop background - All settings - Themes.
+
+
+P.S. In the case of non-standard placement of buttons in some programs (eg Filezilla), You can use the safe theme Fifty Shades of Grey, numbered 07, 22, 32 or 40.
+
+P.S.S. In your present Beryl Emerald Theme - Fifty Shades of Grey.emerald, Fifty Shades of Grey mini.emerald, Fifty Shades of Grey pulse.emerald and Fifty Shades of Grey milk.emerald. They can be installed through Emerald Themer - click Import, and select the Fifty Shades of Grey.emerald.
+
+These themes are universal and fit any of the presented. They are transparent and how to imitate the existing wallpaper and backgrounds.
+
+
+If you do not like the buttons on the right, you can throw yourself on the left side of the button in any Beryl Emerald Theme.
+
+To do this you need to choose a theme in Emerald Themer - click on Change Theme - click on the headline in the Location box, enter the title of objects such as the following: 
+
+
+C(1)X(1)N(1)A:T:(1)M(3)I:
+
+or
+
+C(1)X(1)N(1)A::T(10)
+
+or
+
+CNX(2)A:I(3)T:HM:OSX Layout
+
+
+Choose something that you have more to their liking, and click Save. 
+Button will appear on the left side.
+
+Translate google.

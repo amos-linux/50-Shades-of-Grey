@@ -1,0 +1,23 @@
+style "oo"
+{
+    bg[NORMAL] = "#e2e2e2"
+    base[NORMAL]       	 = "#f2f2f2"
+    text[NORMAL]         = "#888888"
+    text[SELECTED] = "#dd4713"
+    text[INSENSITIVE] = "#cfc9c8"
+    fg[INSENSITIVE] = "#cfc9c8"
+
+
+
+}
+widget "GtkWindow"       style  "oo"
+style "ff"
+{
+    text[NORMAL]         = "#888888"
+    text[INSENSITIVE] = "#cfc9c8"
+  fg[INSENSITIVE] = "#cfc9c8"
+  text[SELECTED] = "#f2f2f2"
+    bg[NORMAL] = "#e2e2e2"
+}
+class "GtkInvisible"	style "ff"
+widget "GtkInvisible"	style "ff"

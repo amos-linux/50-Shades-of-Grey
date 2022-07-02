@@ -1,0 +1,121 @@
+/* Fallback Mode Panel */
+
+PanelWidget,
+PanelApplet,
+PanelSeparator,
+PanelToplevel {
+    padding: 0;
+    background-image: -gtk-gradient (linear, left top, left bottom, from (shade (@bg_color, 1.20)), color-stop (0.6, shade (@bg_color, 0.70)), to (shade (@bg_color, 0.85)));
+    color: @os_chrome_fg_color;
+    border-width: 0;
+	-unico-inner-stroke-width: 	0;
+	-unico-outer-stroke-width: 	0;
+    border-image: none;
+    border-style: none;
+
+}
+
+.gnome-panel-menu-bar {
+	-PanelMenuBar-icon-visible: true;
+}
+
+PanelApplet {
+    border-width: 0;
+}
+
+.gnome-panel-menu-bar,
+PanelApplet > GtkMenuBar.menubar,
+PanelApplet > GtkMenuBar.menubar.menuitem,
+PanelMenuBar.menubar,
+PanelMenuBar.menubar.menuitem {
+    background-image: -gtk-gradient (linear, left top, left bottom, from (shade (@bg_color, 1.20)), color-stop (0.6, shade (@bg_color, 0.70)), to (shade (@bg_color, 0.85)));
+    color: @os_chrome_fg_color;
+    border-width: 0;
+	-unico-inner-stroke-width: 	0;
+	-unico-outer-stroke-width: 	0;
+    border-image: none;
+    border-style: none;
+}
+
+PanelAppletFrame { 
+    background-image: -gtk-gradient (linear, left top, left bottom, from (shade (@bg_color, 1.20)), color-stop (0.6, shade (@bg_color, 0.70)), to (shade (@bg_color, 0.85)));
+    color: @os_chrome_fg_color;
+    border-width: 0;
+	-unico-inner-stroke-width: 	0;
+	-unico-outer-stroke-width: 	0;
+    border-image: none;
+    border-style: none;
+}
+
+PanelApplet .button {
+    -GtkButton-inner-border: 2;
+
+    background-image: none;
+    background-color: alpha (@theme_base_color, 0.0);
+
+    color: @os_chrome_fg_color;
+    border-radius: 0;
+    border-width: 0;
+
+    text-shadow: none;
+    color: alpha (@dark_bg_color, 0.5);
+    font: normal;
+
+    -unico-border-gradient: none;
+    -unico-glow-radius: 0;
+    -unico-inner-stroke-width: 0px;
+    -unico-outer-stroke-width: 0px;
+}
+
+PanelApplet .button:prelight:active,
+PanelApplet .button:active {
+   border-image: none;
+    background-image: -gtk-gradient (linear, left top, left bottom, from (shade (@button_gradient_color_a, 1.40)), color-stop (0.6, shade (@button_gradient_color_a, 0.80)), to (shade (@button_gradient_color_a, 0.95)));
+
+    color: @os_chrome_selected_fg_color;
+    text-shadow: none;
+    border-width: 0;
+    border-radius: 4px 4px 4px 4px;
+    -unico-border-gradient: none;
+    -unico-glow-radius: 0;
+    -unico-inner-stroke-width: 0;
+    -unico-outer-stroke-width: 0;
+}
+
+PanelApplet .button:prelight {
+    background-image: none;
+    background-color: alpha (@theme_base_color, 0.0);
+
+    color: @os_chrome_fg_color;
+    text-shadow: none;
+    border-radius: 0;
+    border-width: 0;
+
+    -unico-border-gradient: none;
+    -unico-glow-radius: 0;
+    -unico-inner-stroke-width: 0;
+    -unico-outer-stroke-width: 0;
+}
+
+ClockBox {
+    text-shadow: 0 1 shade (@dark_bg_color, 1.08);
+}
+
+WnckPager, WnckTasklist {
+    background-color: @os_chrome_selected_bg_color;
+    background-image: none;
+    color: @os_chrome_fg_color;
+    text-shadow: none;
+}
+
+GsmFailWhaleDialog {
+    background-color: @os_chrome_bg_color;
+    background-image: none;
+    color: @os_chrome_fg_color;
+	text-shadow: none;
+}
+
+GsmFailWhaleDialog * {
+    background-color: @os_chrome_bg_color;
+    background-image: none;
+}

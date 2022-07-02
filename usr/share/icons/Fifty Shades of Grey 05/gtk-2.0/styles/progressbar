@@ -1,0 +1,64 @@
+style "progressbar" {
+  
+  fg[PRELIGHT]       		= "#666666"
+  xthickness            		= 4
+  ythickness            		= 4
+
+
+  engine "pixmap" 
+  {
+    image
+    {
+      function				= BOX
+      detail					= "trough"
+#      recolorable			= TRUE
+      file					= "ProgressBar/trough-progressbar-horiz.png"
+      border				= { 5, 5, 5, 5 }
+      stretch				= FALSE
+	overlay_file    = "Shadows/shadow-in2.png"
+	overlay_border  = { 7, 7, 7, 7 }
+	overlay_stretch = TRUE
+      orientation                        = HORIZONTAL
+}
+    image
+    {
+      function				= BOX
+      detail					= "trough"
+#      recolorable			= TRUE 
+      file					= "ProgressBar/trough-progressbar.png"
+      border				= { 5, 5, 5, 5 }
+	overlay_file    = "Shadows/shadow-in2.png"
+	overlay_border  = { 7, 7, 7, 7 }
+	overlay_stretch = TRUE
+      stretch				= FALSE
+      orientation                        = VERTICAL
+ }
+    image
+    {
+      function				= BOX
+      detail					= "bar"
+      file					= "ProgressBar/progressbar-horiz.png"
+      border				= { 5, 5, 5, 5 }
+	overlay_file    = "Shadows/entry-shadow-in.png"
+	overlay_border  = { 7, 7, 7, 7 }
+	overlay_stretch = TRUE
+      stretch				= FALSE
+      orientation			= HORIZONTAL
+    } 
+    image
+    {
+      function				= BOX
+      detail					= "bar"
+      file					= "ProgressBar/progressbar-vert.png"
+      border				= { 5, 5, 5, 5 }
+	overlay_file    = "Shadows/entry-shadow-in.png"
+	overlay_border  = { 7, 7, 7, 7 }
+	overlay_stretch = TRUE
+      stretch				= FALSE
+      orientation			= VERTICAL
+    }
+  }
+}
+widget_class "*ProgressBar*" style "progressbar"
+class "GtkProgressBar" style "progressbar"
+class "GtkBar" style "progressbar"

@@ -1,0 +1,14 @@
+style "chrome-gtk-frame"
+{
+    ChromeGtkFrame::frame-color = "#ffffff"
+    ChromeGtkFrame::inactive-frame-color = "#ffffff"
+
+    ChromeGtkFrame::frame-gradient-size = 16
+    ChromeGtkFrame::frame-gradient-color = "#ffffff"
+
+    ChromeGtkFrame::scrollbar-trough-color = "#ffffff"
+    ChromeGtkFrame::scrollbar-slider-prelight-color = "#ffffff"
+    ChromeGtkFrame::scrollbar-slider-normal-color = "#ffffff"
+}
+
+class "ChromeGtkFrame" style "chrome-gtk-frame"

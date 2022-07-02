@@ -1,0 +1,34 @@
+[Icon Theme]
+Name=50 Shades of Grey icon
+Comment=Icons theme. ZMA. 08.12.2014.
+Inherits=Humanity,gnome,unity-icon-theme,Tango,Mist
+Example=folder
+Directories=devices,folders,places,status
+
+[devices]
+Size=128
+MinSize=16
+MaxSize=128
+Context=Devices
+Type=Scalable
+
+[folders]
+Size=128
+MinSize=16
+MaxSize=128
+Context=Folders
+Type=Scalable
+
+[places]
+Size=128
+MinSize=16
+MaxSize=128
+Context=Places
+Type=scalable
+
+[status]
+Size=128
+MinSize=16
+MaxSize=128
+Context=Status
+Type=scalable
