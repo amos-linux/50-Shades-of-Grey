@@ -1,8 +1,0 @@
-style "mate-menu-style"
-{
-    bg_pixmap[NORMAL] = "Buttons/button-normal.png"	
-    bg_pixmap[PRELIGHT] = "Buttons/button-normal.png"
-    bg_pixmap[ACTIVE] = "Buttons/button-normal.png"
-}
-
-widget "mate-menu.*" style "mate-menu-style"
